@@ -28,12 +28,118 @@
  *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
  */
 
-
-.
-html {
-  font-size: 1.0rem;
-}
-
-body {
+body { 
   font-family: Arial, Helvetica, sans-serif;
+
+  align-items: center;
+  margin-left: 2rem;
+  padding: 1rem;
+  background-color: rgb(195, 183, 146);
+  border-radius: 1rem;
+
+
+  
 }
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.btn {
+  background-color:rgb(251, 249, 245);
+  color: rgb(27, 31, 31);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3rem;
+}
+
+  
+
+.subtitle {
+  text-align: left;
+  font-size: 1.5rem;
+  font-size: sm;
+  font-weight: lighter;
+  color: rgb(28, 28, 113);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.price {
+  text-align: left;
+  font-size: 30px;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(13, 13, 13);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(15, 15, 14);
+  margin-left: 3rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  background-color: #f1faeeff;
+  border-radius: 2rem;
+}
+
+.title{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(15, 15, 14);
+  margin-left: 1rem;
+}
+.description {
+  text-align:left;
+
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-size:small;
+  font-weight:200;
+  color: #1d3557ff;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.flex-container {
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+
+.flex-container div {
+  background-color: #dcd8a7;
+  width: 30%;
+  margin: 1rem;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-radius: 1rem;
+  align-items: center;
+  margin-left: 30rem;
+  margin-bottom: 0rem;
+  padding: 0rem;
+  align-items: center;
+  max-width: 200rem;
+}
+.
+  
+html {
+  font-size: 1rem;
+}
+
+  
+
+
+
